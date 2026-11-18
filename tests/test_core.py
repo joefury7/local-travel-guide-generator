@@ -1,4 +1,5 @@
 """Comprehensive test suite for Local Travel Guide Generator core logic across all 5 milestones.
+All tests run with fixed random seeds for deterministic reproducibility.
 """
 import pytest
 import torch

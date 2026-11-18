@@ -28,6 +28,8 @@ from transformers.pytorch_utils import Conv1D
 CITY_NAME = "Aethelgard"
 
 # High-quality dataset of travel interests mapped to rich local recommendations in Aethelgard
+# Origin / Source: Custom synthetic domain dataset created for the Local Travel Guide generator drill,
+# modeling 8 authentic traveler personas and landmarks across coastal and historic districts.
 AETHELGARD_DATASET = [
     {
         "interest": "Culinary & Street Food",

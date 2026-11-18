@@ -1,0 +1,90 @@
+{
+  "parameters": {
+    "total_base": 82060032,
+    "trainable_lora": 147456,
+    "percentage": 0.18
+  },
+  "loss_history": [
+    5.447298049926758,
+    5.251717567443848,
+    4.942360162734985,
+    4.715372085571289
+  ],
+  "baseline_eval": {
+    "relevance_score": 12.5,
+    "distinct_2_diversity": 94.73684210526315,
+    "average_token_length": 12.875
+  },
+  "lora_eval": {
+    "relevance_score": 37.5,
+    "distinct_2_diversity": 97.26775956284153,
+    "average_token_length": 46.75
+  },
+  "comparisons": [
+    {
+      "interest": "Culinary & Street Food",
+      "baseline_output": "The Most Popular Restaurant in the World (or, more specifically, New York City) \u2013 There are some things that you can't do when dining at a restaurant. You'll need to be able see it from your own vantage point and try to figure out how this will work for yourself or others alike. For example if I'm going to take on",
+      "lora_output": "The Cidery Biscuit Caf\u00e9, which offers a variety of dishes and cocktails. On Sundays from 11am-3pm with the evening buffet featuring live music by local DJ James O'Neill (featuring jazz guitarist Darryl Hightower). Admission to this intimate event includes food trucks in hand for free at one of our six dining",
+      "baseline_keywords_matched": [
+        "dining"
+      ],
+      "lora_keywords_matched": [
+        "food",
+        "dining"
+      ]
+    },
+    {
+      "interest": "Ancient History & Ruins",
+      "baseline_output": "Guide to the Lost Empire (Aethelgarden)",
+      "lora_output": "The City of the Blackwater, which is home to a wide array and diverse range of historic structures. Located on Hightower Road in Lighthouse Bay overlooking Lake Huron's Blueberry Coast from noon-6 p... Read more about this area here",
+      "baseline_keywords_matched": [],
+      "lora_keywords_matched": []
+    },
+    {
+      "interest": "Nature, Hiking & Parks",
+      "baseline_output": "The Travel Guide",
+      "lora_output": "The Woodlands of the Southern Hemisphere. View a series of scenic views that span from Santa Cruz to Baja California's Black Mountain Mountains and look for wildlife along the southern coast with spectacular bird-watching trails through Lake El Capitan Bay (a stunning view).",
+      "baseline_keywords_matched": [],
+      "lora_keywords_matched": [
+        "trail"
+      ]
+    },
+    {
+      "interest": "Nightlife & Music",
+      "baseline_output": "The Best of Halt and Catch Fire, C-Spaces (2)",
+      "lora_output": "The Great Horseshoe. In the evening, you can enjoy an array of live music and a spectacular sunset view from Bessar's Bay to Chaschlefirrens (the largest waterfall in France). Tour throughout summer with two guided tour guides for stunning views along the northern edge that stretches across St-Pierre River through L",
+      "baseline_keywords_matched": [],
+      "lora_keywords_matched": [
+        "music"
+      ]
+    },
+    {
+      "interest": "Art & Bohemian Culture",
+      "baseline_output": "The New Game, by David B. Williams",
+      "lora_output": "The Great Courtyard with a cozy and quiet courtyard. Open to the public for guided tours of Gertrude Castle, where you can explore Gothic architecture from an open-air window overlooking central St Paul's Cathedral (and take photos while walking through some historic medieval gardens). Admission is free but be warned that visiting grogs are only available on",
+      "baseline_keywords_matched": [],
+      "lora_keywords_matched": []
+    },
+    {
+      "interest": "Family & Relaxed Leisure",
+      "baseline_output": "Travel Tips, Events and Information",
+      "lora_output": "The Art Center in the Village of Borneo, where a hostel garden and pool pools serve stunning evening-spooky music.",
+      "baseline_keywords_matched": [],
+      "lora_keywords_matched": []
+    },
+    {
+      "interest": "Adventure & Water Sports",
+      "baseline_output": "Gameplay and Gaming",
+      "lora_output": "The Great Lakes and the Caves of Lake Erie. Explore a scenic landscape with breathtaking views, lakes, wetlands, open-topped fountains for an afternoon stroll through rugged coastal waters to learn about nature while exploring beautiful streams in stunning landscapes (including some amazing creeks). Visit trails that are not just accessible by boat or bus; explore",
+      "baseline_keywords_matched": [],
+      "lora_keywords_matched": []
+    },
+    {
+      "interest": "Luxury & Wellness Spas",
+      "baseline_output": "The Travel Guide to the World of Magic (http://www.thetravelguide.com/articles-to-world-of_magic)",
+      "lora_output": "Travel the entire city to an ancient site of a rich wine garden. The open-topped gardens offer stunning views, unique artworks and fascinating exhibits including seasonal viewings from historic vineyards that support local communities as well as live music with family members for evening concerts or public performances featuring musicians in hand by artists such Asian C\u00e9zanne and Frank",
+      "baseline_keywords_matched": [],
+      "lora_keywords_matched": []
+    }
+  ]
+}

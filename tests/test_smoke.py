@@ -1,4 +1,4 @@
-"""These pass on day one. They check the plumbing so you notice quickly if you break it."""
+"""Integration tests for project settings and persistence layer."""
 import os
 
 from app import llm
